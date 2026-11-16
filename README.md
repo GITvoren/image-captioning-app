@@ -2,6 +2,8 @@
 
 A web-based multimodal AI application that generates natural-language captions for uploaded images using Salesforce's **BLIP (Bootstrapping Language-Image Pre-training)** vision-language model and **Streamlit**.
 
+Originally prototyped with Gradio and migrated to Streamlit for cloud deployment.
+
 🔗 **Live Demo:** <a href="https://image-captioning-app-mtigqkzntld7ypmuz9appjf.streamlit.app/" target="_blank">Launch AI App</a>
 
 ## Features

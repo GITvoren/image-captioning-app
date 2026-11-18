@@ -1,7 +1,7 @@
 streamlit==1.67.0
-torch==2.15.0
-transformers==5.23.0
-pillow==13.0.0
-requests==2.34.2
-numpy==2.5.5
-gradio==5.0.0
+gradio>=4.0.0
+torch
+transformers
+pillow
+requests
+numpy

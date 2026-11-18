@@ -33,6 +33,6 @@ iface = gr.Interface(
 )
 
 
-iface.launch()
-
-""" pip freeze > requirements.txt """
+if __name__ == "__main__":
+  port = int(os.environ.get("PORT", 7860))
+  iface.launch(server_name="0.0.0.0", server_port=port)

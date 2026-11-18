@@ -1,6 +1,6 @@
 streamlit==1.67.0
 gradio>=4.0.0
-torch
+torch --index-url https://download.pytorch.org/whl/cpu
 transformers
 pillow
 requests

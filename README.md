@@ -61,3 +61,11 @@ Originally prototyped with Gradio and migrated to Streamlit for cloud deployment
 ├── .gitignore              # Excludes venv, cache, and local environment files
 └── README.md               # Project documentation
 ```
+
+---
+
+### 👨‍💻 Author & Course Context
+Built by **Voren** ([GitHub](https://github.com/GITvoren) • [Portfolio](https://vorentejuco.pages.dev))
+
+> **Part of the IBM AI Developer Professional Certificate**  
+> Developed as a practical, hands-on capstone/lab project applying modern AI engineering, LLM integration, and full-stack deployment principles.

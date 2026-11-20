@@ -1,6 +1,8 @@
-# AI Image Captioning App
+# AI-Powered Web Image & Alt-Text Generator
 
-A web-based multimodal AI application that generates natural-language captions for uploaded images using Salesforce's **BLIP (Bootstrapping Language-Image Pre-training)** vision-language model and **Streamlit**.
+A multimodal AI web application that automates image captioning and **SEO / accessibility alt-text generation** using Salesforce's **BLIP (Bootstrapping Language-Image Pre-training)** vision-language model, **BeautifulSoup**, and **Streamlit**.
+
+Built to help content teams, web developers, and SEO specialists automatically extract images from live webpages and generate descriptive alt-text—or analyze individual images on demand.
 
 Originally prototyped with Gradio and migrated to Streamlit for cloud deployment.
 
@@ -8,9 +10,9 @@ Originally prototyped with Gradio and migrated to Streamlit for cloud deployment
 
 ## Features
 
-* **Instant Image-to-Text Generation:** Upload any image (JPG, PNG, WebP) and get an accurate, human-readable description in seconds.
-* **Interactive Web Interface:** Built with Streamlit for clean drag-and-drop image uploads, previews, and output rendering.
-* **Optimized Model Caching:** Uses `@st.cache_resource` to load the BLIP model into memory once for fast subsequent predictions.
+* **Automated Webpage Image Scraper & Alt-Text Generator:** Enter any public URL to automatically extract `<img>` assets, filter out tiny icons/SVGs, generate SEO- and accessibility-friendly alt-text descriptions in batch, and export all results as a downloadable `captions.txt` file.
+* **Single Image Captioner:** Upload individual images (JPG, PNG, WebP) for instant natural-language descriptions.
+* **Optimized Model Caching:** Uses `@st.cache_resource` to load the BLIP model into memory once for fast inference across repeated runs.
 * **Continuous Deployment:** Automatically deploys updates pushed to the `main` branch via Streamlit Community Cloud.
 
 ## Tech Stack

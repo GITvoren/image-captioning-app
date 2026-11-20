@@ -1,4 +1,4 @@
-# AI-Powered Web Image & Alt-Text Generator
+# Webpage Image Captioning & Alt-Text Tool
 
 A multimodal AI web application that automates image captioning and **SEO / accessibility alt-text generation** using Salesforce's **BLIP (Bootstrapping Language-Image Pre-training)** vision-language model, **BeautifulSoup**, and **Streamlit**.
 

@@ -69,7 +69,7 @@ with tab2:
   )
 
   url_input = st.text_input(
-      "Webpage URL", "https://en.wikipedia.org/wiki/IBM"
+      "Webpage URL", "https://edition.cnn.com"
   )
 
   # Add a slider to let the user control how many images to scrape

@@ -1,6 +1,6 @@
-streamlit==1.67.0
+streamlit
 torch
 transformers
 pillow
 requests
-numpy
+beautifulsoup4

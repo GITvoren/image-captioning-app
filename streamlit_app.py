@@ -12,8 +12,7 @@ st.set_page_config(
 
 st.title("AI-Powered Web Image & Alt-Text Generator")
 st.write(
-    "Powered by Salesforce BLIP — choose between single image analysis or"
-    " automated batch-scraping for web content."
+    "Powered by Salesforce BLIP — extract webpage images to generate SEO and accessibility alt-text in batch, or analyze individual images on demand."
 )
 
 

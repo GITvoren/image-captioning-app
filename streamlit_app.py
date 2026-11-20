@@ -7,10 +7,10 @@ from transformers import BlipForConditionalGeneration, BlipProcessor
 
 # Page config
 st.set_page_config(
-    page_title="AI Image Captioning Suite", page_icon="🖼️", layout="wide"
+    page_title="AI Image Captioning Suite", page_icon="🌐", layout="wide"
 )
 
-st.title("AI-Powered Web Image & Alt-Text Generator")
+st.title("Webpage Image Captioning & Alt-Text Tool")
 st.write(
     "Powered by Salesforce BLIP — extract webpage images to generate SEO and accessibility alt-text in batch, or analyze individual images on demand."
 )
